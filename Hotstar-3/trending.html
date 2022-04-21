@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Open+Sans:wght@400;600;700&family=Poppins:wght@600;700&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="trending.css">
+</head>
+<body>
+    <div id="parent">
+        <div id="navbar">
+            <div id="nav1">
+                <p>Home</p>
+                <p>TV</p>
+                <p>Movies</p>
+                <p>Sports</p>
+                <p>Trending</p>
+            </div>
+            <div id="nav2">
+                <input type="text" oninput="debounce(main,1000)" id="search" placeholder="Enter Movie Name">
+                <div id="list">
+
+                </div>
+            </div id="nav3">
+            <div id="nav3">
+                <button id="sub">SUBSCRIBE</button>
+                <p>LOGIN</p>
+            </div>
+        </div>
+
+        <p id="name">Trending Today</p>
+        <!-- <hr> -->
+
+        <div id="container1">
+
+        </div>
+
+
+    </div>
+</body>
+</html>
+
+<script src="trending.js"></script>
